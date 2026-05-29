@@ -1,2 +1,2 @@
-FROM nginxinc/nginx-unprivileged
-COPY app/web/index.html /usr/share/nginx
+FROM nginxinc/nginx-unprivileged:latest
+COPY app/web /usr/share/nginx/html/
